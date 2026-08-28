@@ -1,5 +1,7 @@
 # Portafolio — Roberto Benavente Jiménez
 
+**En vivo:** https://portfolio-robert-sable.vercel.app
+
 Portafolio personal como desarrollador Full Stack / Backend. React + Vite + TypeScript + Tailwind CSS.
 
 **Dirección de diseño:** _Neo-tactile_ — fondo tipo "aurora" con degradados difuminados, tarjetas con profundidad e inclinación 3D sutil al pasar el mouse, modo claro/oscuro.
@@ -56,9 +58,8 @@ Colocá el PDF en `public/cv/Roberto-Benavente-CV-ES.pdf` (o cambiá la ruta en
 - [ ] Confirmar el correo público (`profile.email`).
 - [ ] (Opcional) Agregar `public/og-image.png` (1200×630) para las vistas previas en redes.
 
-## Deploy en Vercel
+## Deploy
 
-1. Subí el repo a GitHub.
-2. En Vercel: **New Project** → importá el repo.
-3. Framework preset: **Vite**. Build: `npm run build`. Output: `dist`.
-4. Deploy. El `vercel.json` ya redirige todas las rutas a `index.html` (SPA).
+Desplegado en Vercel (preset **Vite**, build `npm run build`, output `dist`). Cada push a
+`main` hace redeploy automático. El `vercel.json` redirige todas las rutas a `index.html`
+para que el ruteo del lado del cliente funcione al recargar.
