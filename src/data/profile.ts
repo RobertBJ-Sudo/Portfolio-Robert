@@ -9,8 +9,7 @@ export const profile: Profile = {
     'Construyo APIs y bases de datos sólidas con .NET y SQL Server, y las conecto con interfaces en React.',
   location: 'Costa Rica',
   phone: '+506 7221-6142',
-  // TODO(Roberto): confirmá cuál correo querés mostrar públicamente.
-  email: 'robertobj212006@gmail.com',
+  email: 'robertobj2106@gmail.com',
   availability: 'Disponible para incorporarme como Desarrollador Junior',
   summary:
     'Estudiante de Ingeniería en Computación en la Universidad Hispanoamericana (Costa Rica), con cerca del 90 % de la carrera completada. Tengo experiencia práctica —académica y en proyectos reales— con C#, .NET / ASP.NET Core, React, bases de datos SQL y herramientas de control de versiones y gestión de proyectos. Busco incorporarme como desarrollador Junior en un equipo Full Stack o Backend.',
@@ -27,10 +26,14 @@ export const profile: Profile = {
     { name: 'Inglés', level: 'B2+ · fluido' },
   ],
   socials: [
-    // TODO(Roberto): reemplazá con tus URLs reales.
+    // TODO(Roberto): pasá la URL de tu repo/usuario de GitHub.
     { label: 'GitHub', href: 'https://github.com/', icon: 'github' },
-    { label: 'LinkedIn', href: 'https://www.linkedin.com/', icon: 'linkedin' },
-    { label: 'Correo', href: 'mailto:robertobj212006@gmail.com', icon: 'mail' },
+    {
+      label: 'LinkedIn',
+      href: 'https://www.linkedin.com/in/roberto-benavente-ab6850375',
+      icon: 'linkedin',
+    },
+    { label: 'Correo', href: 'mailto:robertobj2106@gmail.com', icon: 'mail' },
   ],
   cv: {
     // Colocá el archivo en /public/cv/ con este nombre (o cambiá la ruta).
