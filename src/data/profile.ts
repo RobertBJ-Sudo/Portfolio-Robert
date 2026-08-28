@@ -26,8 +26,7 @@ export const profile: Profile = {
     { name: 'Inglés', level: 'B2+ · fluido' },
   ],
   socials: [
-    // TODO(Roberto): pasá la URL de tu repo/usuario de GitHub.
-    { label: 'GitHub', href: 'https://github.com/', icon: 'github' },
+    { label: 'GitHub', href: 'https://github.com/RobertBJ-Sudo', icon: 'github' },
     {
       label: 'LinkedIn',
       href: 'https://www.linkedin.com/in/roberto-benavente-ab6850375',
