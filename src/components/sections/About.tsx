@@ -8,7 +8,7 @@ export function About() {
     <Section
       id="sobre-mi"
       eyebrow="Sobre mí"
-      title="Ingeniería en Computación, con las manos en el código"
+      title="Ingeniería Informática, con las manos en el código"
     >
       <div className="mx-auto grid max-w-5xl gap-6 lg:grid-cols-[1.4fr_1fr]">
         <Reveal className="rounded-2xl border border-border bg-surface/70 p-7 backdrop-blur-sm sm:p-9">

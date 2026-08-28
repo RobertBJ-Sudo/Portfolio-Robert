@@ -12,12 +12,12 @@ export const profile: Profile = {
   email: 'robertobj2106@gmail.com',
   availability: 'Disponible para incorporarme como Desarrollador Junior',
   summary:
-    'Estudiante de Ingeniería en Computación en la Universidad Hispanoamericana (Costa Rica), con cerca del 90 % de la carrera completada. Tengo experiencia práctica —académica y en proyectos reales— con C#, .NET / ASP.NET Core, React, bases de datos SQL y herramientas de control de versiones y gestión de proyectos. Busco incorporarme como desarrollador Junior en un equipo Full Stack o Backend.',
+    'Estudiante de Ingeniería Informática en la Universidad Hispanoamericana (Costa Rica), con cerca del 90 % de la carrera completada. Tengo experiencia práctica —académica y en proyectos reales— con C#, .NET / ASP.NET Core, React, bases de datos SQL y herramientas de control de versiones y gestión de proyectos. Busco incorporarme como desarrollador Junior en un equipo Full Stack o Backend.',
   workNote:
     'Me apoyo en herramientas de IA (ChatGPT, GitHub Copilot, Claude) para acelerar el desarrollo, la depuración y el aprendizaje técnico, siempre revisando y entendiendo el código que entra al proyecto.',
   education: {
     school: 'Universidad Hispanoamericana',
-    degree: 'Licenciatura en Ingeniería en Computación',
+    degree: 'Bachillerato en Ingeniería Informática',
     location: 'Costa Rica',
     progress: '90 % completado',
   },

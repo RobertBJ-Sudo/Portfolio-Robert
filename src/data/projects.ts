@@ -55,7 +55,7 @@ export const projects: Project[] = [
     status: 'archived',
     accentEmoji: '🎓',
     summary:
-      'Conjunto de proyectos construidos durante la Ingeniería en Computación: aplicaciones de escritorio y consola, aplicaciones web CRUD y varios proyectos de bases de datos.',
+      'Conjunto de proyectos construidos durante la carrera de Ingeniería Informática: aplicaciones de escritorio y consola, aplicaciones web CRUD y varios proyectos de bases de datos.',
     contributions: [
       'Aplicaciones de escritorio y de consola en C# y Java.',
       'Aplicaciones web CRUD con PHP y CodeIgniter.',
