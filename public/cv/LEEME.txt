@@ -1,0 +1,6 @@
+Colocá aquí tu CV en PDF con el nombre:
+
+    Roberto-Benavente-CV-ES.pdf
+
+Esa es la ruta que usa el botón "Descargar CV" (ver src/data/profile.ts -> cv.es).
+Si querés otro nombre o agregar la versión en inglés, editá ese archivo.

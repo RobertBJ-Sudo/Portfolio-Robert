@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="es" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light dark" />
+    <meta
+      name="description"
+      content="Portafolio de Roberto Benavente Jiménez — desarrollador Full Stack / Backend. Ingeniería en Computación, ASP.NET Core, React y bases de datos SQL."
+    />
+    <meta name="author" content="Roberto Benavente Jiménez" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Roberto Benavente Jiménez — Desarrollador Full Stack / Backend" />
+    <meta
+      property="og:description"
+      content="Portafolio y proyectos de Roberto Benavente Jiménez. ASP.NET Core, React, SQL Server."
+    />
+    <meta property="og:image" content="/og-image.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <script>
+      // Aplica el tema antes de pintar para evitar el parpadeo (FOUC).
+      (function () {
+        try {
+          var stored = localStorage.getItem('theme')
+          var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches
+          var dark = stored ? stored === 'dark' : prefersDark
+          document.documentElement.classList.toggle('dark', dark)
+        } catch (e) {}
+      })()
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Roberto Benavente Jiménez — Desarrollador Full Stack / Backend</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
